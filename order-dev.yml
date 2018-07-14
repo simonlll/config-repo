@@ -16,3 +16,6 @@ server:
   port: 8089
 env:
   dev
+girl:
+  name: lili
+  age: 20
