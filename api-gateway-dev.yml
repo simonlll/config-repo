@@ -1,0 +1,9 @@
+zuul:
+  routes:
+    myProduct:
+      path: /myProduct/**
+      serviceId: product
+      sensitiveHeaders:  #排除对cookie的过滤
+  ignored-patterns:  #排除某些路由
+    - /product/product/listForOrder
+    - /myProduct/product/listForOrder
