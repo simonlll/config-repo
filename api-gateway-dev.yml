@@ -1,4 +1,5 @@
 zuul:
+  #忽略全部服务都可传递cookie
   sensitive-headers: 
   routes:
     myProduct:
